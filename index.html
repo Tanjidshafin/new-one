@@ -11,8 +11,33 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    
   </head>
   <body>
+    <!-- styles section -->
+    <style>
+      .carousel-images{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .bg-image-1{
+        background-image: url(banner.png);
+      }
+      .bg-image-2{
+        background-image: url(banner1.jpg);
+
+      }
+      .bg-image-3{
+        background-image: url(banner2.jpg);
+      }
+    </style>
+     <!-- styles section -->
+      <!-- styles section -->
+       <!-- styles section -->
+
+
     <!-- navbar area -->
     <section>
       <nav class="navbar navbar-expand-xl lg:px-48 py-14">
@@ -81,31 +106,29 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="banner.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption lg:d-none d-md-block ">
-              <h5 class="lg:text-8xl font-semibold text-md lg:px-28">The Perfect Venue for your next event</h5>
-              <p class="lg:text-3xl lg:font-light text-sm  my-0 lg:px-56 text-slate-300
-              lg:my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit praesentium</p>
-              <button class="bg-white text-blue-800 px-2 text-sm lg:text-4xl lg:px-5 lg:py-4 font-semibold rounded-md hover:text-red-600 hover:bg-transparent hover:transition-all">Book Now</button>
+          <div class="carousel-item active carousel-images bg-image-1 ">
+            <!-- <img src="banner.png" class="" alt="..."> -->
+            <div class="carousel-caption lg:d-none d-md-block position-absolute  top-50 ">
+              <h5 class="lg:text-8xl font-semibold text-2xl lg:px-28">The Perfect Venue for your next event</h5>
+              <p class="lg:text-3xl lg:font-light text-sm  lg:px-56 lg:my-8 text-slate-300 
+              ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit praesentium</p>
+              <button class="bg-white text-blue-800 text-sm lg:text-4xl px-6 py-4 font-semibold rounded-md hover:text-red-600 hover:bg-transparent hover:transition-all">Book Now</button>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="banner1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption lg:d-none d-md-block ">
-              <h5 class="lg:text-8xl font-semibold text-md lg:px-28 text-black">The second perfect venue for bestest event</h5>
-              <p class="lg:text-3xl lg:font-light text-sm  my-0 lg:px-56 text-slate-300
-              lg:my-4 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, mollitia? Quos veniam</p>
-              <button class="bg-white text-blue-800 px-2 text-sm lg:text-4xl lg:px-5 lg:py-4 font-semibold rounded-md hover:text-red-600 hover:bg-transparent hover:transition-all">Book Now</button>
+          <div class="carousel-item carousel-images bg-image-2 ">
+            <!-- <img src="banner1.jpg" class="d-block w-100" alt="..."> -->
+            <div class="carousel-caption lg:d-none d-md-block position-absolute  top-50  ">
+              <h5 class="lg:text-8xl font-semibold text-2xl lg:px-28 text-black">The second perfect venue for bestest event</h5>
+              <p class="lg:text-3xl lg:font-light text-sm lg:px-56 lg:my-8 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, mollitia? Quos veniam</p>
+              <button class="bg-white text-blue-800 text-sm lg:text-4xl px-6 py-4 font-semibold rounded-md hover:text-red-600 hover:bg-transparent hover:transition-all">Book Now</button>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="banner2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption lg:d-none d-md-block ">
-              <h5 class="lg:text-8xl font-semibold text-md lg:px-28">Third Best Venue for storing your events in one sided area</h5>
-              <p class="lg:text-3xl lg:font-light text-sm  my-0 lg:px-56 text-slate-300
-              lg:my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam minus</p>
-              <button class="bg-white text-blue-800 px-2 text-sm lg:text-4xl lg:px-5 lg:py-4 font-semibold rounded-md hover:text-red-600 hover:bg-transparent hover:transition-all">Book Now</button>
+          <div class="carousel-item carousel-images bg-image-3 ">
+            <!-- <img src="banner2.jpg" class="d-block w-100" alt="..."> -->
+            <div class="carousel-caption lg:d-none d-md-block position-absolute  top-50  ">
+              <h5 class="lg:text-8xl font-semibold text-2xl lg:px-28">Third Best Venue for storing your events in one sided area</h5>
+              <p class="lg:text-3xl lg:font-light text-sm  lg:px-56 lg:my-8 text-slate-300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam minus</p>
+              <button class="bg-white text-blue-800 text-sm lg:text-4xl px-6 py-4 font-semibold rounded-md hover:text-red-600 hover:bg-transparent hover:transition-all">Book Now</button>
             </div>
           </div>
         </div>
